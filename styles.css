@@ -81,6 +81,7 @@ ul {
 header {
   background-color: var(--Very-Pale-Cyan);
   background-image: url(bg-hero-mobile.svg);
+  background-blend-mode: normal;
   background-repeat: no-repeat;
   padding-top: 20px;
 }

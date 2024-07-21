@@ -80,7 +80,7 @@ ul {
 
 header {
   background-color: var(--Very-Pale-Cyan);
-  background-image: url(./images/bg-hero-mobile.svg);
+  background-image: url(bg-hero-mobile.svg);
   background-repeat: no-repeat;
   padding-top: 20px;
 }
@@ -363,7 +363,7 @@ a + a {
 
 @media (min-width: 1200px) {
   header {
-    background-image: url(./images/bg-hero-desktop.svg);
+    background-image: url(bg-hero-desktop.svg);
   }
 
   .header__img {

@@ -77,15 +77,22 @@ ul {
 }
 
 /* Header styles */
+
 header {
-  background-image: url(bg-hero-mobile.svg);
-  background-size: contain;
+  background-color: var(--Very-Pale-Cyan);
+  background-image: url(./images/bg-hero-mobile.svg);
   background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+.header__container {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 90%;
 }
 
 .header__img {
@@ -111,7 +118,6 @@ header .btn__plain {
   gap: 70px;
   justify-content: center;
   padding: 50px 0;
-  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -154,6 +160,10 @@ header .btn__plain {
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
   width: 90%;
+}
+
+.card.img__right.top {
+  margin-top: 100px;
 }
 
 .card__img {
@@ -353,8 +363,7 @@ a + a {
 
 @media (min-width: 1200px) {
   header {
-    background-image: url(bg-hero-desktop.svg);
-    background-repeat: no-repeat;
+    background-image: url(./images/bg-hero-desktop.svg);
   }
 
   .header__img {
